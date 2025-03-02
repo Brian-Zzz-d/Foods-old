@@ -1,0 +1,58 @@
+.home-container {
+  overflow-x: hidden; /* Evita el desplazamiento horizontal */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #2c2c2c;
+  color: white;
+  min-height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+}
+
+.image-column {
+  flex-direction: row; /* Cambiado de column a row */
+  justify-content: center; /* Centra las imágenes horizontalmente */
+  max-width: 1000px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  margin: auto;
+}
+
+.fade-image {
+  box-sizing: border-box; /* Asegura que el padding/border no agreguen más tamaño */
+  max-width: 300px; /* Limita el tamaño máximo de cada imagen */
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: opacity 0.5s ease-in-out;
+  border-radius: 10px;
+}
+
+.fade-image:not(:first-child) {
+  margin-top: -50px;
+}
+
+.fade-image:hover {
+  opacity: 0.7;
+}
+
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 80%;
+  text-align: center;
+}

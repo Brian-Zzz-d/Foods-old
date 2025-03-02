@@ -1,0 +1,45 @@
+.header {
+  position: fixed;  /* Fija el header en la pantalla */
+  top: 0;           /* Lo mantiene en la parte superior */
+  left: 0;
+  width: 100%;      /* Ocupa todo el ancho */
+  background-color: #333; /* Color de fondo */
+  color: white;     /* Color del texto */
+  text-align: center;
+  display: flex;         /* Usa flexbox para alinear el contenido */
+  justify-content: space-between; /* Alinea elementos horizontalmente */
+  padding: 15px 20px;     
+}
+
+.content {
+  margin-top: 60px; /* Ajusta este valor según la altura de tu header */
+}
+
+.links {
+  list-style: none; /* Quita los estilos de lista */
+  display: flex; /* Usa flexbox para alinear los elementos */
+  gap: 20px; /* Agrega separación entre elementos */
+  padding: 0;
+  margin: 0;
+  justify-content: space-between; /* Distribuye los enlaces en toda la barra */
+  width: 100%; /* Asegura que ocupen todo el ancho del header */
+  max-width: 1200px;
+}
+
+.links li {
+  display: inline; /* Asegura que los elementos estén en línea */
+  flex: 1; /* Hace que cada elemento ocupe el mismo espacio */
+  text-align: center; /* Centra el texto dentro de cada enlace */
+}
+
+.links a {
+  text-decoration: none; /* Quita el subrayado de los enlaces */
+  color: white; /* Color del texto */
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.links a:hover {
+  color: #f39c12; /* Cambia de color al pasar el mouse */
+}
