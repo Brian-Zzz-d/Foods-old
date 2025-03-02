@@ -1,0 +1,13 @@
+.food-list-box {
+  width: 70%;
+}
+
+.food-list-box div {
+  width: 100%;
+}
+
+.food-list-box div img {
+  width: 70%;
+  height: 70%;
+  object-fit: cover;
+}

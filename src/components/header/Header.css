@@ -1,0 +1,66 @@
+.header {
+  top: 0;           /* Lo mantiene en la parte superior */
+  left: 0;
+  width: 100%;      /* Ocupa todo el ancho */
+  background-color: #333; /* Color de fondo */
+  color: white;     /* Color del texto */
+  text-align: center;
+  display: flex;         /* Usa flexbox para alinear el contenido */
+  justify-content: center; /* Alinea elementos horizontalmente */
+  padding: 5px 20px; 
+  z-index: 1000;
+  position: absolute;    
+  height: 60px;
+}
+
+.content {
+  margin-top: 80px;
+}
+
+.links {
+  list-style: none; /* Quita los estilos de lista */
+  display: flex; /* Usa flexbox para alinear los elementos */
+  gap: 20px; /* Agrega separación entre elementos */
+  padding: 0;
+  margin: 0;
+  justify-content: center; /* Distribuye los enlaces en toda la barra */
+  width: 100%; /* Asegura que ocupen todo el ancho del header */
+  max-width: 1200px;
+  align-items: center;
+}
+
+.links li {
+  display: inline; /* Asegura que los elementos estén en línea */
+  flex: 1; /* Hace que cada elemento ocupe el mismo espacio */
+  text-align: center; /* Centra el texto dentro de cada enlace */
+}
+
+.links a {
+  text-decoration: none; /* Quita el subrayado de los enlaces */
+  color: white; /* Color del texto */
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.links a:hover {
+  color: #f39c12; /* Cambia de color al pasar el mouse */
+}
+
+.logo-container {
+  margin-right: 5px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  border: 4px solid white; /* Marco para el logo */
+  border-radius: 7px; /* Bordes redondeados */
+  background-color: rgba(255, 255, 255, 0.1); /* Fondo con transparencia */
+}
+
+.logo {
+  height: 45px; /* Ajusta según el tamaño de tu logo */
+  width: auto;
+
+}

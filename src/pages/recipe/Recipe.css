@@ -1,0 +1,12 @@
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Asegura que ocupe toda la pantalla */
+}
+
+.img img {
+  width: 50%; /* Ajusta el tamaño de la imagen */
+  height: auto; /* Mantiene la proporción */
+  max-width: 100%; /* Evita que la imagen se desborde */
+}

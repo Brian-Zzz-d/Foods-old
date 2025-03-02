@@ -1,0 +1,17 @@
+import Header from "../../components/header/Header"
+import Footer from "../../components/footer/Footer"
+import "./Restaurants.css"
+function Restaurants() {
+  return (
+    <>
+      <Header />
+      <div className="img">
+        <img src="/img/restaurants/Working.jpg" alt="Working" />
+      </div>
+      <Footer />
+    </>
+  )
+
+}
+
+export default Restaurants

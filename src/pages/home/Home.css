@@ -1,0 +1,52 @@
+.home-container {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #2c2c2c;
+  color: white;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.image-column {
+  flex-direction: row; 
+  justify-content: center; 
+  max-width: 1000px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  margin: auto;
+}
+
+.fade-image {
+  box-sizing: border-box;
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: opacity 0.5s ease-in-out;
+  border-radius: 10px;
+}
+
+.fade-image:hover {
+  opacity: 0.7;
+}
+
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 10px;
+  text-align: center;
+}
