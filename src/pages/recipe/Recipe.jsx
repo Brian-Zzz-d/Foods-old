@@ -6,7 +6,7 @@ function Recipe() {
     <>
       <Header />
       <div className="img">
-        <img src="../../img/Working.jpg" alt="Working"/>
+        <img src="/img/recipe/Working.jpg" alt="Working"/>
       </div>
       <Footer />
     </>

@@ -6,7 +6,7 @@ function Restaurants() {
     <>
       <Header />
       <div className="img">
-        <img src="../../img/Working.jpg" alt="Working" />
+        <img src="/img/restaurants/Working.jpg" alt="Working" />
       </div>
       <Footer />
     </>

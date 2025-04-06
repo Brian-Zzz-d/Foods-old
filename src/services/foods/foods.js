@@ -1,12 +1,12 @@
 const foods = [
   {
-    img: "Paella.jpg",
+    img: "/home/Paella.jpg",
     description: "texto de la paella"
   }, {
-    img: "Pizza.jpg",
+    img: "/home/Pizza.jpg",
     description: "texto de la piezzzzzzz"
   }, {
-    img: "Ramen.jpeg",
+    img: "/home/Ramen.jpeg",
     description: "ramendjdjkldkjdj"
   },
 ]
