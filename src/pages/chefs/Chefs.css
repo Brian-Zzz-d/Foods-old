@@ -1,0 +1,24 @@
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Asegura que ocupe toda la pantalla */
+}
+
+.img img {
+  width: 50%; /* Ajusta el tamaño de la imagen */
+  height: auto; /* Mantiene la proporción */
+  max-width: 100%; /* Evita que la imagen se desborde */
+}
+
+@media only screen and (max-width: 600px) {
+  .img img {
+    width: 80%; /* Ajusta el tamaño de la imagen en pantallas pequeñas */
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .img img {
+    width: 50%; /* Ajusta el tamaño de la imagen en pantallas más grandes */
+  }
+}

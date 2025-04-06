@@ -1,66 +1,8 @@
-🍽️ Food Web Project
+# React + Vite
 
-Welcome to Food, my personal web project inspired by the amazing world of food! This site is currently in development and reflects my vision to create an interactive, visually appealing, and informative experience for food lovers around the globe.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Currently, two official plugins are available:
 
-🌐 Overview
-
-The main structure of the website includes:
-
-º Home: A welcoming landing page featuring a large logo, vibrant images, and food-related news. I’m planning to make this page highly visual and engaging.
-
-º Chefs: A section dedicated to the most famous chefs around the world. This page had some technical issues recently, but I’ll be fixing them and adding rich content about each chef.
-
-º Famous Dishes: Here, I’ll showcase iconic dishes from different cultures, each with descriptions and improved visual design.
-
-º Recipes: A collection of typical recipes from around the world, aimed at helping people who love cooking.
-
-º Restaurants: A guide to some of the most renowned restaurants worldwide, with descriptions and details.
-
-
-The footer is currently under development and will include links similar to those in the header, animations, and additional pages like Privacy Rights and Terms of Service.
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-⚙️ Latest Updates
-
-- Improved page loading experience.
-
-- Responsive design added using media queries.
-
-- New footer pages: Privacy Rights and Conditions of Sale.
-
-- Fixed some minor layout issues.
-
-- Working on future integration with Firebase for dynamic content and possible user interaction.
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-🚀 Future Plans
-
-- Add interactive elements to make the site more dynamic.
-
-- Create a forum where users can recommend restaurants from around the world.
-
-- Integrate Firebase and hosting.
-
-- Enhance design and performance.
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-🙌 Credits
-
-Helper: [ChatGPT](https://chatgpt.com/)
-
-Images: [Google Images](https://www.google.com/)
-
-Logo Creator: [LogoAI](https://www.logoai.com/)
-
-Third-Party Components:
-
-CSS Loader - [W3Schools](https://www.w3schools.com/howto/howto_css_loader.asp)
-
-Responsive Design - W[3Schools](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
-
-
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

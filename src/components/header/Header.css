@@ -1,12 +1,13 @@
 .header {
-  top: 0;           /* Lo mantiene en la parte superior */
+  top: 0;           
   left: 0;
-  width: 100%;      /* Ocupa todo el ancho */
-  background-color: #333; /* Color de fondo */
-  color: white;     /* Color del texto */
+  width: 100%;      
+  background-color: #333; 
+  color: white;     
   text-align: center;
-  display: flex;         /* Usa flexbox para alinear el contenido */
-  justify-content: center; /* Alinea elementos horizontalmente */
+  display: flex;         
+  justify-content: space-between; /* */
+  align-items: center; /**/
   padding: 5px 20px; 
   z-index: 1000;
   position: absolute;    
@@ -63,4 +64,54 @@
   height: 45px; /* Ajusta según el tamaño de tu logo */
   width: auto;
 
+}
+
+.menu-icon {
+  display: none; /* El ícono de menú está oculto por defecto */
+  cursor: pointer;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.menu-icon .bar {
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+/* Estilos para el menú en dispositivos móviles (cambio aquí) */
+@media only screen and (max-width: 600px) {
+  .links {
+    display: none; /* El menú está oculto por defecto en pantallas pequeñas */
+    width: 100%;
+    flex-direction: column;
+    background-color: #333;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    padding: 20px;
+    border-top: 2px solid #f39c12;
+  }
+
+  /* Cuando el menú se abre, se muestra verticalmente */
+  .links.open {
+    display: flex;
+  }
+
+  /* Mostrar el ícono del menú solo en pantallas pequeñas */
+  .menu-icon {
+    display: flex; /* El ícono de menú aparece solo en pantallas pequeñas */
+  }
+}
+
+/* Estilos para dispositivos más grandes (cambio aquí) */
+@media only screen and (min-width: 600px) {
+  .links {
+    display: flex; /* El menú siempre se muestra en pantallas más grandes */
+  }
+
+  .menu-icon {
+    display: none; /* El ícono de menú está oculto en pantallas grandes */
+  }
 }
