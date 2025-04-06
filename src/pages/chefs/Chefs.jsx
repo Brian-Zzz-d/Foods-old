@@ -3,8 +3,10 @@ import Footer from "../../components/footer/Footer"
 function Chefs() {
   return (
     <>
-      <Header />
-      <p></p>
+      <Header/>
+      <div className="img">
+        <img src="/img/chefs/Working.jpg" alt="Working"/>
+      </div>
       <Footer/>
     </>
   )

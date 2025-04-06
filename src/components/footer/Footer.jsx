@@ -4,11 +4,27 @@ function Footer() {
   return (
     <footer className="footer">
       <span className="footer-text">© 2025 COMIDAS Todos los derechos reservados</span>
-      <span className="footer-links">
-        <a href="https://www.cookiebot.com/es/politica-de-privacidad-para-mi-web/" className="politics">Política de Privacidad y Cookies</a>
+      <ul className="footer-links">
+        <li><a href="/home">Inicio</a></li>
+        <li><a href="/chefs">Chefs</a></li>
+        <li><a href="/famous-dish">Platos</a></li>
+        <li><a href="/recipe">Recetas</a></li>
+        <li><a href="/restaurants">Restaurantes</a></li>
+      </ul>
+
+      <ul className="footer-policies">
+       <li><a href="/politics">Política de Privacidad y Cookies</a></li>
         |
-        <a href="https://economistas.es/condiciones-de-venta/" className="politics">Condiciones de Venta</a>
-      </span>
+        <li><a href="/conditions">Condiciones de Venta</a></li>
+      </ul>
+
+
+      <div className="footer-images">
+        <img src="/img/footer/Facebook.png" alt="Img1" />
+        <img src="/img/footer/Instagram.png" alt="Img2" />
+        <img src="/img/footer/Twiter.png" alt="Img3" />
+
+      </div>
     </footer>
   );
 }

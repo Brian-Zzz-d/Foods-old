@@ -7,10 +7,10 @@ function Home() {
       <Header />
       <div className="home-container">
         <div className="image-column">
-          <img src="/img/Ramen.jpeg" alt="Imagen 1" className="fade-image" />
-          <img src="/img/Paella.jpg" alt="Imagen 2" className="fade-image" />
-          <img src="/img/Pizza.jpg" alt="Imagen 3" className="fade-image" />
-          <div className="image-text">Texto en el centro</div>
+          <img src="/img/home/Ramen.jpeg" alt="Imagen 1" className="fade-image" />
+          <img src="/img/home/Paella.jpg" alt="Imagen 2" className="fade-image" />
+          <img src="/img/home/Pizza.jpg" alt="Imagen 3" className="fade-image" />
+          <div className="image-text">FOOD</div>
         </div>
       </div>
       <Footer />

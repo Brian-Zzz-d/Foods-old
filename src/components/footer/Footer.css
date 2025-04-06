@@ -1,7 +1,6 @@
 .footer {
-  position: fixed; /* Fija el footer en la parte inferior */
+  position: relative; /*Fija el footer en la parte inferior */
   bottom: 0;       /* Lo coloca al final de la pantalla */
-  left: 0;
   width: 100%;
   display: flex;
   justify-content: center; /* Distribuye los elementos */
@@ -10,34 +9,152 @@
   color: white; /* Texto en blanco */
   padding: 20px 25px;
   z-index: 1000;
-
+  flex-direction: column;
 }
 
 .footer-text {
-  margin-top: 15px;
-  top: 20px;
-  position: relative;
-  z-index: 1; /* Mantiene el texto en el fondo */
+  font-size: 14px;
+  margin-bottom: 20px; /* Espacio debajo del texto */
 }
 
 .footer-links {
-  margin-top: 20px;
-  top: 30px;
-  position: absolute;
-  top: 5px; /* Ajusta la posición sobre el texto */
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 2; /* Asegura que los enlaces estén sobre el texto */
+  display: flex;
+  justify-content: center;  /* Centra los enlaces */
+  gap: 15px;  /* Espacio entre los enlaces */
+  list-style-type: none;  /* Elimina los puntos de lista */
+  padding: 0;
+  margin-bottom: 20px;  /* Espacio debajo de los enlaces */
 }
 
-.politics {
-  text-decoration: none;
-  color: white;
-  font-size: 16px;
-  font-weight: bold;
-  transition: color 0.3s ease;
+.footer-links li {
+  list-style-type: none;  /* Elimina los puntos de lista */
 }
 
-.politics:hover {
-  color: #f0a500; /* Cambia de color al pasar el mouse */
+.footer-links a {
+  text-decoration: none;  /* Quita el subrayado */
+  color: white;           /* Color del texto en blanco */
+  font-weight: bold;      /* Pone el texto en negrita */
+  font-size: 16px;        /* Tamaño de fuente */
+  transition: color 0.3s ease;  /* Transición suave para el color */
+}
+
+.footer-links a:hover {
+  color: #f0a500;  /* Cambia de color al pasar el mouse */
+}
+
+.footer-policies {
+  font-size: 14px;   /* Tamaño de fuente más pequeño para los enlaces de políticas */
+  margin-bottom: 20px;  /* Espacio debajo de los enlaces de políticas */
+}
+
+.footer-policies a {
+  text-decoration: none;  /* Quita el subrayado */
+  color: white;           /* Color del texto en blanco */
+  font-weight: bold;      /* Pone el texto en negrita */
+  transition: color 0.3s ease;  /* Transición suave para el color */
+}
+
+.footer-policies a:hover {
+  color: #f0a500;  /* Cambia de color al pasar el mouse */
+}
+
+.footer-images {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centra las imágenes verticalmente */
+  gap: 10px; /* Espacio entre las imágenes */
+}
+
+.footer-images img {
+  width: 30px; /* Ajusta el tamaño de las imágenes */
+  height: auto;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 600px) {
+  .footer {
+    padding: 25px 30px;
+  }
+
+  .footer-text {
+    font-size: 16px;
+  }
+
+  .footer-links a {
+    font-size: 18px;
+  }
+
+  .footer-policies a {
+    font-size: 16px;
+  }
+
+  .footer-images img {
+    width: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .footer {
+    padding: 30px 35px;
+  }
+
+  .footer-text {
+    font-size: 18px;
+  }
+
+  .footer-links a {
+    font-size: 20px;
+  }
+
+  .footer-policies a {
+    font-size: 18px;
+  }
+
+  .footer-images img {
+    width: 45px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .footer {
+    padding: 35px 40px;
+  }
+
+  .footer-text {
+    font-size: 20px;
+  }
+
+  .footer-links a {
+    font-size: 22px;
+  }
+
+  .footer-policies a {
+    font-size: 20px;
+  }
+
+  .footer-images img {
+    width: 50px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .footer {
+    padding: 40px 45px;
+  }
+
+  .footer-text {
+    font-size: 22px;
+  }
+
+  .footer-links a {
+    font-size: 24px;
+  }
+
+  .footer-policies a {
+    font-size: 22px;
+  }
+
+  .footer-images img {
+    width: 60px;
+  }
 }
