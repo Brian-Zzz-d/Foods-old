@@ -26,6 +26,7 @@ function Header() {
         <li><a href="/famous-dish" className="">Platos</a></li>
         <li><a href="/recipe" className="">Recetas</a></li>
         <li><a href="/restaurants" className="">Restaurantes</a></li>
+        <li><a href="/review" className="">Reseñas</a></li>
       </ul>
     </header>
   );
