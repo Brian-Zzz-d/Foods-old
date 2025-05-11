@@ -9,6 +9,7 @@ import Restaurants from "./pages/restaurants/Restaurants";
 import FamousDish from "./pages/famous-dish/FamousDish";
 import Politics from "./pages/politics/Politics";
 import Conditions from "./pages/conditions/Conditions";
+import Review from "./pages/review/Review";
 
 import './App.css';
 
@@ -43,6 +44,7 @@ function App() {
         <Route path="/restaurants" element={<Restaurants />} />
         <Route path="/politics" element={<Politics />} />
         <Route path="/conditions" element={<Conditions />} />
+        <Route path="/review" element={<Review />} />
       </Routes>
     </BrowserRouter>
   )

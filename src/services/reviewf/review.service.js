@@ -15,7 +15,7 @@ const addBike = (brand, model) => {
 };
 
 const removeBike = (key) => {
-  const dbRefBike = ref(db, `/bikes/${key}`);
+  const dbRefBike = ref(database, `/bikes/${key}`);
   return remove(dbRefBike);
 };
 
