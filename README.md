@@ -24,27 +24,27 @@ The footer is currently under development and will include links similar to thos
 
 ⚙️ Latest Updates
 
-- Improved page loading experience.
+Improved page loading experience.
 
-- Responsive design added using media queries.
+Responsive design added using media queries.
 
-- New footer pages: Privacy Rights and Conditions of Sale.
+New footer pages: Privacy Rights and Conditions of Sale.
 
-- Fixed some minor layout issues.
+Fixed some minor layout issues.
 
-- Working on future integration with Firebase for dynamic content and possible user interaction.
+Working on future integration with Firebase for dynamic content and possible user interaction.
+
+Firebase integrated.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🚀 Future Plans
 
-- Add interactive elements to make the site more dynamic.
+Add interactive elements to make the site more dynamic.
 
-- Create a forum where users can recommend restaurants from around the world.
+Create a forum where users can recommend restaurants from around the world.
 
-- Integrate Firebase and hosting.
-
-- Enhance design and performance.
+Enhance design and performance.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
