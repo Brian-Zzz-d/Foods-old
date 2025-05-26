@@ -8,9 +8,9 @@ Welcome to Food, my personal web project inspired by the amazing world of food! 
 
 The main structure of the website includes:
 
-º Home: A welcoming landing page featuring a large logo, vibrant images, and food-related news. I’m planning to make this page highly visual and engaging.
+* Home: A welcoming landing page featuring a large logo, vibrant images, and food-related news. I’m planning to make this page highly visual and engaging.
 
-º Chefs: A section dedicated to the most famous chefs around the world. This page had some technical issues recently, but I’ll be fixing them and adding rich content about each chef.
+* Chefs: A section dedicated to the most famous chefs around the world. This page had some technical issues recently, but I’ll be fixing them and adding rich content about each chef.
 
 º Famous Dishes: Here, I’ll showcase iconic dishes from different cultures, each with descriptions and improved visual design.
 
